@@ -31,14 +31,29 @@
         </div>
 
     </article>
+<div id='discourse-comments'></div>
+<meta name='discourse-username' content='ngeorger'>
 
+<script type="text/javascript">
+  DiscourseEmbed = {
+    discourseUrl: 'http://foro.sredevops.cl/',
+    discourseEmbedUrl: '{{url absolute="true"}}'
+    className: 'gh-comments gh-canvas',
+  };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
     {{> "post-navigation"}}
 
-    {{#if comments}}
+    {{!-- {{#if comments}}
         <div class="gh-comments gh-canvas">
             {{comments}}
         </div>
-    {{/if}}
+    {{/if}} --}}
 
     {{/post}}
 
