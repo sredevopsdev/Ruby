@@ -20,7 +20,7 @@
         "dark",
         "dark-theme"
     ],
-    "docs": "https://ruby.ghost.io/about/",
+    "docs": "https://github.com/sredevopsdev/Ruby",
     "config": {
         "lang": "es",
         "posts_per_page": 12,
@@ -48,7 +48,11 @@
         "custom": {
             "navigation_layout": {
                 "type": "select",
-                "options": ["Logo a la izquierda", "Logo centrado", "Stacked"],
+                "options": [
+                    "Logo a la izquierda",
+                    "Logo centrado",
+                    "Stacked"
+                ],
                 "default": "Logo centrado"
             },
             "title_font": {
