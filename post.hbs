@@ -8,7 +8,7 @@
 
         <header class="gh-article-header gh-canvas">
             <span class="gh-article-meta"{{#if primary_tag.accent_color}} style="--tag-color: {{primary_tag.accent_color}};"{{/if}}>
-                {{#primary_author}}By <a href="{{url}}">{{name}}</a>{{/primary_author}}
+                {{#primary_author}}Por <a href="{{url}}">{{name}}</a>{{/primary_author}}
                 {{#if primary_tag}}
                     en
                     <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
@@ -49,11 +49,11 @@
 </script>
     {{> "post-navigation"}}
 
-    {{!-- {{#if comments}}
+    {{#if comments}}
         <div class="gh-comments gh-canvas">
             {{comments}}
         </div>
-    {{/if}} --}}
+    {{/if}}
 
     {{/post}}
 

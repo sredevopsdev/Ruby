@@ -9,6 +9,7 @@
     z-index: 10;
     content: "";
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    /* background:black; */
 }
 
 .post-feed .featured.no-image .post-link::before {
@@ -63,7 +64,7 @@
 }
 
 .post-feed .featured .post-footer {
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(46, 46, 46, 0.2);
 }
 
 .post-feed .featured .post-author-image {

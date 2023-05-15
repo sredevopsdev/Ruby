@@ -1,7 +1,7 @@
 {
-    "name": "ruby",
-    "description": "A Ghost theme",
-    "version": "1.0.1",
+    "name": "ruby-dark",
+    "description": "Mod for Ruby theme, dark version",
+    "version": "0.0.1",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -15,10 +15,14 @@
     "keywords": [
         "ghost",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "ruby",
+        "dark",
+        "dark-theme"
     ],
     "docs": "https://ruby.ghost.io/about/",
     "config": {
+        "lang": "es",
         "posts_per_page": 12,
         "image_sizes": {
             "xs": {
@@ -44,8 +48,8 @@
         "custom": {
             "navigation_layout": {
                 "type": "select",
-                "options": ["Logo on the left", "Logo in the middle", "Stacked"],
-                "default": "Logo in the middle"
+                "options": ["Logo a la izquierda", "Logo centrado", "Stacked"],
+                "default": "Logo centrado"
             },
             "title_font": {
                 "type": "select",
