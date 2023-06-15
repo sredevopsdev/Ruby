@@ -1,7 +1,7 @@
 {
     "name": "ghost-ruby-dark",
     "description": "A Ghost dark theme",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
