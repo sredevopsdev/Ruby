@@ -3,8 +3,8 @@ name: Deploy Theme
 on:
   push:
     branches:
-      - master
       - main
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -13,5 +13,10 @@ jobs:
       - name: Deploy Ghost Theme to ElClaustro.cl
         uses: TryGhost/action-deploy-theme@v1
         with:
-          api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
-          api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
+          api-url: ${{ secrets.ELCLAUSTRO_API_URL }}
+          api-key: ${{ secrets.ELCLAUSTRO_ADMIN_API_KEY }}
+      - name: Deploy Ghost Theme to SREDevOps.cl
+        uses: TryGhost/action-deploy-theme@v1
+        with:
+          api-url: ${{ secrets.SREDEVOPS_API_URL }}
+          api-key: ${{ secrets.SREDEVOPS_ADMIN_API_KEY }}

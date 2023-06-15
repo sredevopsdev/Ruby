@@ -1,3 +1,6 @@
 {
-    "ghost.openDocsLocation": "browser"
+    "ghost.openDocsLocation": "browser",
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/deploy-theme.yml"
+    ]
 }
