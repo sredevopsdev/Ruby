@@ -11,6 +11,10 @@
         "Ghost Foundation",
         "@ngeorger"
     ],
+    "author": {
+        "name": "Ghost Foundation",
+        "email": "info@sredevops.cl"
+    },
     "keywords": [
         "ghost",
         "theme",
