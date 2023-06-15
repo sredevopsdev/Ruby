@@ -10,14 +10,14 @@
             <span class="gh-article-meta"{{#if primary_tag.accent_color}} style="--tag-color: {{primary_tag.accent_color}};"{{/if}}>
                 {{#primary_author}}por <a href="{{url}}">{{name}}</a>{{/primary_author}}
                 {{#if primary_tag}}
-                    in
+                    en la categoría 
                     <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
                 {{/if}}
                 —
-                <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
+                <time datetime="{{date format="DD-MM-YYYY"}}">{{date}}</time>
             </span>
 
-            <h1 class="gh-article-title">{{title}}</h1>
+            <h1 class="gh-article-title dark-font">{{title}}</h1>
 
             {{#if custom_excerpt}}
                 <p class="gh-article-excerpt">{{custom_excerpt}}</p>
@@ -36,7 +36,7 @@
 
     {{#if comments}}
         <div class="gh-comments gh-canvas">
-            {{comments}}
+            {{comments title="Eres trve dark? Entonces... debes registrarte y comentar." count=false mode="dark" saturation=80}}
         </div>
     {{/if}}
 
