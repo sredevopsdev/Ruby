@@ -8,7 +8,8 @@
 @font-face {
     font-family: "PirataOne-Regular";
     font-style: normal;
-    font-weight: 400;
+    text-transform: none;
+    
     src: local(""), url("../fonts/PirataOne-Regular.ttf") format("ttf") , url("../fonts/PirataOne-Regular.ttf") format("truetype");
 }
 
