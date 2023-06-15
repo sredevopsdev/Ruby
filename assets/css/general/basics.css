@@ -7,8 +7,8 @@
     --mid-gray-color: #f8f8f8;
     --dark-gray-color: #ededed;
     --black-color: #000;
-    --font-sans: "PirataOne-Regular", "Open Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-    --font-serif: PirataOne-Regular, Lora, Times, serif;
+    --font-sans: "Open Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    --font-serif: Lora, Times, serif;
     --animation-base: ease-in-out;
     --shadow-base: 0 0 10px rgba(0, 0, 0, 0.02);
     --content-font-size: 1.7rem;

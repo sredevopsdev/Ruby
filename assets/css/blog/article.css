@@ -6,12 +6,12 @@
     margin-bottom: 12px;
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--secondary-text-color);
+    color: #ffffff;
     text-transform: uppercase;
 }
 
 .gh-article-tag {
-    color: var(--tag-color, var(--ghost-accent-color));
+    color: #d6d6d6, #f1f1f1;
 }
 
 .gh-article-title {
