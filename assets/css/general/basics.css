@@ -1,14 +1,14 @@
 :root {
-    --primary-color: var(--ghost-accent-color, #000000);
+    --primary-color: var(--ghost-accent-color, #ffffff);
     --primary-text-color: #ffffff;
-    --secondary-text-color: #f3f3f3;
+    --secondary-text-color: #e8e8e8;
     --white-color: #fff;
     --light-gray-color: #f4f4f4;
-    --mid-gray-color: #e9e9e9;
-    --dark-gray-color: #1a1a1a;
+    --mid-gray-color: #f8f8f8;
+    --dark-gray-color: #ededed;
     --black-color: #000;
-    --font-sans: "Open Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-    --font-serif: Lora, Times, serif;
+    --font-sans: "PirataOne-Regular", "Open Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    --font-serif: PirataOne-Regular, Lora, Times, serif;
     --animation-base: ease-in-out;
     --shadow-base: 0 0 10px rgba(0, 0, 0, 0.02);
     --content-font-size: 1.7rem;
@@ -17,4 +17,5 @@
 /* body:not(.post-template):not(.page-template) { */
 body {
     background-image: linear-gradient(0deg, #000000 65%, #191919);
+    color: #ffffff;
 }
