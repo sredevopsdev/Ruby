@@ -1,21 +1,21 @@
 {
-    "name": "ruby",
-    "description": "A Ghost theme",
+    "name": "ghost-ruby-dark",
+    "description": "A Ghost dark theme",
     "version": "1.0.0",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
     },
     "license": "MIT",
-    "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
-    },
+    "authors": [
+        "Ghost Foundation",
+        "@ngeorger"
+    ],
     "keywords": [
         "ghost",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "dark"
     ],
     "docs": "https://ruby.ghost.io/about/",
     "config": {
