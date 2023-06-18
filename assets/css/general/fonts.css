@@ -9,7 +9,7 @@
     font-family: "PirataOne-Regular";
     font-style: normal;
     text-transform: none;
-    
+    font-weight: 300;
     src: local(""), url("../fonts/PirataOne-Regular.ttf") format("ttf") , url("../fonts/PirataOne-Regular.ttf") format("truetype");
 }
 
