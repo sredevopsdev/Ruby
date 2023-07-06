@@ -1,5 +1,5 @@
 .gh-head {
-    background-color: transparent;
+    background-color: var(--color-black);
 }
 
 .gh-head-menu,

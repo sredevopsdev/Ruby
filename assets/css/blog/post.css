@@ -21,7 +21,7 @@
 .post-wrapper {
     flex-grow: 1;
     padding: 20px;
-    background-color: var(--white-color);
+    background-color: var(--black-color);
 }
 
 .post-tag {
