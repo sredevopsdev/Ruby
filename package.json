@@ -1,7 +1,7 @@
 {
     "name": "ghost-ruby-dark",
     "description": "A Ghost dark theme",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -59,9 +59,10 @@
                 "type": "select",
                 "options": [
                     "Modern sans-serif",
-                    "Elegant serif"
+                    "Elegant serif",
+                    "Lordish"
                 ],
-                "default": "Modern sans-serif"
+                "default": "Lordish"
             },
             "body_font": {
                 "type": "select",

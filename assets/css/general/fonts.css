@@ -6,11 +6,11 @@
 }
 
 @font-face {
-    font-family: "PirataOne-Regular";
+    font-family: "Lordish";
     font-style: normal;
-    text-transform: none;
-    font-weight: 300;
-    src: local(""), url("../fonts/PirataOne-Regular.ttf") format("ttf") , url("../fonts/PirataOne-Regular.ttf") format("truetype");
+    text-transform: lowercase;
+    font-weight: 200;
+    src: local(""), url("../fonts/Lordish-Regular.ttf") format("ttf") , url("../fonts/Lordish-Regular.ttf") format("truetype");
 }
 
 @font-face {
