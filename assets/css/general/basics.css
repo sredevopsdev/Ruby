@@ -24,14 +24,17 @@
 }
 .font-dark {
     font-family: "Lordish", "Open Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     text-transform: lowercase;
+    color: #ffffff !important;
+    font-size: 5rem !important;
 }
 
 /* body:not(.post-template):not(.page-template) { */
 body {
-    background-image: linear-gradient(0deg, #000000 65%, #191919);
+    /* background-image: linear-gradient(0deg, #000000 65%, #191919); */
+    background: #000;
 
 }
 a, a:link, a:visited, a:active, a:hover, a:focus, a:active:focus, a:active:hover, a:any-link {
