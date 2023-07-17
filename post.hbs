@@ -35,29 +35,12 @@
 
     {{> "post-navigation"}}
 
-    {{!-- {{#if comments}}
+    {{#if comments}}
         <div class="gh-comments gh-canvas">
             {{comments title="Eres trve dark? Entonces... debes registrarte y comentar." mode="dark" excerpt_length="50" author_avatar="true" limit="5"}} 
         </div>
-    {{/if}} --}}
-        <div class="gh-comments gh-canvas">
-            <div id="disqus_thread"></div>
-            <script>
-                var disqus_config = function () {
-                this.page.url = "{{canonical_url}}";  
-                this.page.identifier = "ghost-{{comment_id}}";
-                };
-                (function () { // DON'T EDIT BELOW THIS LINE
-                    var d = document, s = d.createElement('script');
-                    s.src = 'https://elclaustrocl.disqus.com/embed.js';
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-                    Disqus.</a>
-            </noscript>
-        </div>
+    {{/if}}
+
     {{/post}}
 
     {{#if @custom.show_related_posts}}
