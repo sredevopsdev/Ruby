@@ -1,5 +1,5 @@
 .gh-head {
-    background-color: transparent;
+    background-color: var(--color-black);
 }
 
 .gh-head-menu,
@@ -8,7 +8,12 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.005em;
+    color: #ffffff;
+
 }
+a {
+    color: #ffffff;
+} 
 
 .gh-head-btn {
     --multiplier: 1.3;
