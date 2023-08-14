@@ -217,4 +217,3 @@ dist
 
 # assets/built/*
 yarn.lock
-assets/built/*
