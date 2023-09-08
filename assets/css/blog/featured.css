@@ -12,7 +12,7 @@
 }
 
 .post-feed .featured.no-image .post-link::before {
-    background: var(--tag-color, var(--ghost-accent-color));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
 }
 
 .post-feed .featured .post-media {
@@ -32,7 +32,8 @@
 .post-feed .featured .post-footer {
     position: relative;
     z-index: 20;
-    background-color: transparent;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent)!important;
+
 }
 
 .post-feed .featured .post-wrapper {
@@ -45,7 +46,7 @@
 }
 
 .post-feed .featured .post-tag {
-    color: var(--white-color);
+    color: var(--secondary-text-color);
 }
 
 .post-feed .featured .post-title {
@@ -63,7 +64,7 @@
 }
 
 .post-feed .featured .post-footer {
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0.169);
 }
 
 .post-feed .featured .post-author-image {

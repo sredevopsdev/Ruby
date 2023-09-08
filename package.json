@@ -1,23 +1,29 @@
 {
-    "name": "ruby",
-    "description": "A Ghost theme",
-    "version": "1.0.0",
+    "name": "ghost-ruby-dark",
+    "description": "A Ghost dark theme",
+    "version": "1.6.0",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
     },
     "license": "MIT",
+    "authors": [
+        "Ghost Foundation",
+        "https://github.com/sredevopsdev"
+    ],
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Ghost Foundation, patched by @sredevopsdev",
+        "email": "info@sredevops.cl"
     },
     "keywords": [
         "ghost",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "dark"
     ],
-    "docs": "https://ruby.ghost.io/about/",
+    "docs": "https://github.com/sredevopsdev/ghost-ruby-dark",
+    "bugs": "https://github.com/sredevopsdev/ghost-ruby-dark/issues",
+    "homepage": "https://github.com/sredevopsdev/ghost-ruby-dark",
     "config": {
         "posts_per_page": 12,
         "image_sizes": {
@@ -44,7 +50,11 @@
         "custom": {
             "navigation_layout": {
                 "type": "select",
-                "options": ["Logo on the left", "Logo in the middle", "Stacked"],
+                "options": [
+                    "Logo on the left",
+                    "Logo in the middle",
+                    "Stacked"
+                ],
                 "default": "Logo in the middle"
             },
             "title_font": {

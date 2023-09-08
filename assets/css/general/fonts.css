@@ -6,6 +6,14 @@
 }
 
 @font-face {
+    font-family: "Lordish";
+    font-style: normal;
+    text-transform: none;
+    font-weight: 200;
+    src: local(""), url("../fonts/Lordish-Regular.ttf") format("ttf") , url("../fonts/Lordish-Regular.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
