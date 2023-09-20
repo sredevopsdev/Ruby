@@ -14,19 +14,19 @@ jobs:
       matrix:
         labels: [runner-k3s, ubuntu-latest]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         name: Checkout Repository
 
       - name: Deploy Ghost Theme to ElClaustro.cl
         continue-on-error: true
-        uses: TryGhost/action-deploy-theme@v1.6.3
+        uses: TryGhost/action-deploy-theme@v1
         with:
           api-url: ${{ secrets.ELCLAUSTRO_API_URL }}
           api-key: ${{ secrets.ELCLAUSTRO_ADMIN_API_KEY }}
       
       - name: Deploy Ghost Theme to SREDevOps.cl
         uses: TryGhost/action-deploy-theme@v1.6.3
-        continue-on-error: false
+        continue-on-error: true
         with:
           api-url: ${{ secrets.SREDEVOPS_API_URL }}
           api-key: ${{ secrets.SREDEVOPS_ADMIN_API_KEY }}
