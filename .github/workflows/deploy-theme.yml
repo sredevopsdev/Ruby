@@ -7,7 +7,12 @@ on:
   workflow_dispatch:
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    #  checks for runners with label runner-k3s, if active use it, failover to ubuntu:latest
+    runs-on: 
+      labels: ${{ matrix.labels }} 
+    strategy:
+      matrix:
+        labels: [runner-k3s, ubuntu-latest]
     steps:
       - uses: actions/checkout@v3
         name: Checkout Repository
