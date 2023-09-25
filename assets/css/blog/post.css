@@ -21,7 +21,7 @@
 .post-wrapper {
     flex-grow: 1;
     padding: 20px;
-    background-color: var(--black-color);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent) !important;
 }
 
 .post-tag {
@@ -63,8 +63,8 @@
     justify-content: space-between;
     height: 42px;
     padding: 0 20px;
-    background-color: var(--black-color);
-    border-top: 1px solid #181818;
+    background-color: #000!important;
+    border-top: 0px solid #181818;
 }
 
 .post-more {

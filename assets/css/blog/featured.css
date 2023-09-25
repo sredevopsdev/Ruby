@@ -32,7 +32,8 @@
 .post-feed .featured .post-footer {
     position: relative;
     z-index: 20;
-    background-color: transparent;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent)!important;
+
 }
 
 .post-feed .featured .post-wrapper {

@@ -6,7 +6,7 @@ const livereload = require('gulp-livereload');
 const postcss = require('gulp-postcss');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
-const beeper = require('beeper');
+// const beeper = require('beeper');
 const zip = require('gulp-zip');
 
 // postcss plugins
@@ -22,7 +22,7 @@ function serve(done) {
 function handleError(done) {
     return function (err) {
         if (err) {
-            beeper();
+            console.error(err);
         }
         return done(err);
     };
