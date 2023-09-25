@@ -5,14 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
-jobs:
+jobs: 
   deploy:
     #  checks for runners with label runner-k3s, if active use it, failover to ubuntu:latest
-    runs-on: 
-      labels: ${{ matrix.labels }} 
-    strategy:
-      matrix:
-        labels: [runner-k3s, ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         name: Checkout Repository
@@ -24,8 +20,8 @@ jobs:
           api-url: ${{ secrets.ELCLAUSTRO_API_URL }}
           api-key: ${{ secrets.ELCLAUSTRO_ADMIN_API_KEY }}
       
-      - name: Deploy Ghost Theme to SREDevOps.cl
-        uses: TryGhost/action-deploy-theme@v1.6.3
+      - name: Deploy Ghost Theme to SREDevOps
+        uses: TryGhost/action-deploy-theme@v1
         continue-on-error: true
         with:
           api-url: ${{ secrets.SREDEVOPS_API_URL }}
